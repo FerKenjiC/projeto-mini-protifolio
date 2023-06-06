@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Mini Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/scroll.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="src/imagens/foto-perfil.jpg" alt="foto de perfil" />
+        <h1>Fernando Kenji Cardozo</h1>
+        <h2>Desenvolvedor Frontend Júnior</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="src/imagens/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="src/imagens/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3>Sobre</h3>
+
+            <div class="descricao">
+              <p>Olá! Meu nome é Fernando Kenji Cardozo, seja bem vindo(a)!</p>
+
+              <p>
+                Durante a minha adolescência, devido à pressão tanto escolar
+                quanto da família, sempre me senti perdido sobre escolher uma
+                carreira. E foi só com 21 anos que comecei a me interessar por
+                programação e desde então venho estudando
+                <span>HTML, CSS e JavaScript</span>, pois sinto que me encontrei
+                nessa área. Meus principais hobbies são, praticar artes marciais
+                (Kung Fu), jogar D&D RPG, assistir animes, filmes e séries.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3>Minhas Redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a href="#" class="curriculo">Currículo</a>
+              </li>
+              <li>
+                <a href="#" class="linkedin">Linkedln</a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/FerKenjiC"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
